@@ -49,17 +49,17 @@ img {
 	padding: 5px;
 }
 
-.form-btn {
+.profile-btn {
 	font-family: monospace;
-	background-color: coral;
-	color: white;
-	border: none;
-	border-radius: 100px;
-	padding: 5px 10px;
-	transition: 500ms;
+	background-color: yellow;
+	color: black;
+	border: 1px solid #bebebe;
+	border-radius: 7px;
+	padding: 7px 10px;
+	transition: 300ms;
 }
 
-.form-btn:hover {
+.profile-btn:hover {
 	background-color: grey;
 	color: white;
 }
