@@ -3,10 +3,21 @@
 /////////////////////////////////
 
 
+let foodList = document.getElementById("random-restaurant-list");
 
-const myRandom = () => {
-    let result = ["Maccas", "Wendy's", "BK"][Math.floor(Math.random() * 3)]
-    alert(`${result}`)
+
+
+
+
+function clearFood() {
+    foodList.innerHTML = ` `
 }
 
-document.getElementById("food-btn").addEventListener("click", myRandom)
+const getRandom = () => {
+    clearFood();
+    foodList.textContent = "Try this place: " + ["Maccas", "Wendy's", "BK"][Math.floor(Math.random() * 3)];
+}
+
+
+
+document.getElementById("food-btn").addEventListener("click", getRandom);

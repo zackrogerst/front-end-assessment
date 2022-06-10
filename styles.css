@@ -72,3 +72,27 @@ img {
 section {
 	padding: 10px;
 }
+
+#food-container {
+	display: flex;
+	align-items: center;
+}
+
+#food-btn {
+	font-family: monospace;
+	background-color: yellow;
+	color: black;
+	border: 1px solid #bebebe;
+	border-radius: 7px;
+	padding: 7px 10px;
+	transition: 300ms;
+}
+
+#food-btn:hover {
+	background-color: grey;
+	color: white;
+}
+
+#random-restaurant-list{
+	margin: 10px;
+}
