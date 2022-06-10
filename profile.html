@@ -1,35 +1,42 @@
-<!DOCplaceholder="" TYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
 
-    <head>
-        <title>Profile Page</title>
-        <link href="styles.css" rel="stylesheet">
+<head>
+    <title>Profile Page</title>
+    <link href="styles.css" rel="stylesheet">
 
-    </head>
+</head>
 
-    <body>
-        <nav>
-            <ol>
-                <li class="crumb"><a href="./home.html">Home</a></li>
-                <li class="crumb"><a href="./profile.html">Profile</a></li>
-                <li class="crumb"><a href="./about.html">About</a></li>
-            </ol>
-        </nav>
+<body>
+    <nav>
+        <ol>
+            <li class="crumb"><a href="./home.html">Home</a></li>
+            <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="./about.html">About</a></li>
+        </ol>
+    </nav>
 
-        <h1>My Name is Zack</h1>
-        <p>I'm learning to program to hopefully accelerate my career but if the recession hits in late 2022 who even
-            knows.</p>
-        <h3>My interests include:</h3>
-        <ul>
-            <li>Riding and Building Motorcycles</li>
-            <li>Lifting Weights</li>
-            <li>Photographing Clouds</li>
-        </ul>
+    <main class="profilemain">
+        <section class="profileintro">
+            <h1>My Name is Zack</h1>
+            <p>I'm learning to program to hopefully accelerate my career but if the recession hits in late 2022 who even
+                knows.</p>
+            <button id="color" class="profile-btn">My Favorite Color</button>
+            <button id="place" class="profile-btn">My Favorite Place</button>
+            <button id="ritual" class="profile-btn">My Favorite Ritual</button>
+        </section>
 
-        <button id="color" class="profile-btn">My Favorite Color</button>
-        <button id="place" class="profile-btn">My Favorite Place</button>
-        <button id="ritual" class="profile-btn">My Favorite Ritual</button>
-
+        <section>
+            <h3>My interests include:</h3>
+            <ul>
+                <li>Riding and Building Motorcycles</li>
+                <li>Lifting Weights</li>
+                <li>Photographing Clouds</li>
+            </ul>
+            <p>I look forward to speaking with you. Use the contact form below to get in touch with me.</p>
+        </section>
+    </main>
+    <section>
         <h2>Contact Me</h2>
         <form id="contact-form" class="form">
             <input id="contact-form-name" class="form-input" placeholder="Your Name" type="text">
@@ -39,8 +46,9 @@
                 cols="21"></textarea>
             <button id="contact-form-message" class="profile-btn">Submit Message</button>
         </form>
+    </section>
 
-        <script src="profile.js"></script>
-    </body>
+    <script src="profile.js"></script>
+</body>
 
-    </html>
+</html>

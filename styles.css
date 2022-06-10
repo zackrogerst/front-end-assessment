@@ -37,9 +37,6 @@ img {
 	max-width: 300px;
 }
 
-
-.form {}
-
 .form-input {
 	display: block;
 	font-family: monospace;
@@ -62,4 +59,16 @@ img {
 .profile-btn:hover {
 	background-color: grey;
 	color: white;
+}
+
+.profilemain {
+	display: flex;
+}
+
+.profileintro {
+	max-width: 50%;
+}
+
+section {
+	padding: 10px;
 }
