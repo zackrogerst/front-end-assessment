@@ -36,3 +36,31 @@ input {
 img {
 	max-width: 300px;
 }
+
+
+.form{
+}
+
+.form-input{
+	display: block;
+	font-family: monospace;
+	background-color: white;
+	border: 1px solid #bebebe;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+.form-btn{
+	font-family: monospace;
+	background-color: coral;
+	color: white;
+	border: none;
+	border-radius: 100px;
+	padding: 5px 10px;
+	transition: 500ms;
+}
+
+.form-btn:hover{
+	background-color: grey;
+	color: white;
+}
